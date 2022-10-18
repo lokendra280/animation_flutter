@@ -3,6 +3,7 @@ import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
 import 'hero_1.dart';
+import 'lootie_screen.dart';
 
 class AllAnimationScreen extends StatelessWidget {
   AllAnimationScreen({super.key});
@@ -11,6 +12,10 @@ class AllAnimationScreen extends StatelessWidget {
     {
       "title": "Hero Animation",
       "widget": Hero1(),
+    },
+    {
+      "title": "Lootie Animation",
+      "widget": LottieScreen(),
     }
   ];
 
